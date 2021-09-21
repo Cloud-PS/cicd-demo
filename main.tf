@@ -1,3 +1,10 @@
+provider "google" {
+    project = "applied-card-324806"
+    region = "us-central1"
+    zone = "us-central1-c"
+}
+
+
 resource "google_compute_instance" "lamp-stack" {
   name         = "yogesh"
   machine_type = "e2-standard-2"
