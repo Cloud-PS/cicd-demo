@@ -6,7 +6,7 @@ provider "google" {
 
 
 resource "google_compute_instance" "lamp-stack" {
-  name         = "yogesh"
+  name         = "yogesh-2"
   machine_type = "e2-standard-2"
   zone         = "us-central1-c"
 
